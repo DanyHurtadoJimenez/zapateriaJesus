@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/*CSS ENCABEZADO*/
+
+#encabezado{
+    background-color: #3bb4c1;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#encabezado-logo{
+    background-color: turquoise;
+    display: flex;
+    align-items: flex-end;
+}
+
+#encabezado-logo a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}
+
+#logo{
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+#slogan{
+    padding: 5px;
+    font-size: 38px;
+}
+
+
+/*CSS CUERPO PÁGINA*/
+
+#contenedorPrincipal{
+    background-color:#f6f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedorPrincipal-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+.logoPrincipal{
+    margin-bottom: -35px;
+    color: black;
+}
+
+.logoPrincipal a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color:black;
+}
+
+#palabra2{
+    margin-left: -100px;
+}
+
+#contenedorPrincipal-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#contenedorPrincipal-menu ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+#contenedorPrincipal-menu li a {
+    text-decoration: none;
+    padding: 10px 12px; 
+}
+
+.opcionesMenu{
+    padding: 5px;
+    margin-right: 4px;
+    margin-left: 4px;
+    font-size:larger;
+    font-weight: bold;
+}
+
+@media only screen and (min-width:500px){ /*ESTO CAMBIA EL TAMANIO DEL NAV PARA ADAPTARSE A LOS TELEFONOS*/ /********************************************/
+    .opcionesMenu{
+        padding: 12px;
+        margin-left: 80px;
+        margin-right: 80px;
+        font-size:x-large;
+    }
+
+    #contenedorPrincipal-menu{
+        margin-top: 100px;
+    }
+
+    #contenedorPrincipal-menu ul{
+        margin-bottom: -10px;
+    }
+
+}
+
+#contenedorPrincipal-menu a:hover{
+    background-color: #f6f5f5;
+    color:black
+}
+
+li{
+    cursor: pointer;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0, 0, 0.2);
+    border-radius: 4px;
+    width:5em ;/**/
+    z-index: 1;
+    margin-left: -12px;
+}
+
+.subOpcion{
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 0.8em;/**/
+}
+
+.opcionesMenu:hover .submenu{
+    display: block;
+}
+
+hr{
+    width: 95%;
+}
+
+/*CSS TARJETAS*/
+
+#contenedorPrincipal h2{
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+#contenedorTarjetas{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 75%;
+}
+
+
+/* CSS DEL FOOTER*/
+
+#piePagina{
+    background-color: #048998;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+#piePagina-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#piePagina-menu div {
+    margin: 25px;
+}
+
+#piePagina-menu div a{
+    color: white;
+    font-size: larger;
+    font-weight:700;
+}
+
+@media only screen and (min-width:500px){
+
+    #piePagina-menu{
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    #piePagina-menu div{
+        border-left: white 1px solid;
+    }
+
+    #piePagina-menu div a{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+}
+
+#piePagina-textoRedesSociales{
+    color: white;
+    font-size: large;
+    font-weight:700;
+    padding: 45px;
+}
+
+#piePagina-iconos{
+
+    margin-left: 45px;
+}
+
+#piePagina-iconos a i{
+    color: white;
+    margin-right: 10px;
+    font-size:xx-large;
+}
+
+
+

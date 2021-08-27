@@ -1,0 +1,64 @@
+
+#contenedorContactenosTitulo h2{
+    font-size: 32px;
+}
+
+#contenedorContactenos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#contenedorContactenosCorreos{
+    padding: 10px;
+}
+
+#contenedorFormulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenedorFormulario h2{
+    margin-bottom: 30px;
+}
+
+#formularioPregunta{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: rgba(114, 114, 114, 0.541) 1px solid;
+    border-radius: 9px;
+    background-color: white;
+}
+
+#formularioPregunta label{
+    font-weight: 600;
+}
+
+#formularioPregunta input, textarea{
+    font-weight: 600;
+    margin: 10px;
+    border-radius: 5px;
+    border: rgba(114, 114, 114, 0.541) 1.5px solid;
+}
+
+#formularioPregunta input[type="submit"]{
+    width: 25%;
+    text-align: center;
+    align-self: center;
+}
+
+#contenedorContactenosCorreos p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+iframe{
+    margin-top: 20px;
+}
+
+

@@ -1,0 +1,38 @@
+#contenedorInfo{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+
+#contenedorInfo-titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 35px;
+}
+
+#contenedorInfo-titulo h2{
+    font-size:xx-large;
+    font-weight: 600;
+}
+
+#contenedorInfo-datos div{
+    margin: 15px;
+}
+
+#contenedor-parrafos{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: larger;
+    font-weight: 600;
+    width: 46%;
+}
+
+#contenedor-imagen img{
+    width: 95%;
+}

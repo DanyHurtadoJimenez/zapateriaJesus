@@ -1,0 +1,51 @@
+/*TARJETAS O CARRUSEL*/
+.tarjeta{
+    width: 100%;
+    background-color:#e9e9e9ee ;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin:5px 5px 30px 5px; 
+}
+
+.tarjeta:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#contenedorPrincipal-contenedorTarjetas{ 
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-top: 100px;
+    margin:15px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (min-width:500px){
+    .tarjeta{
+        width: 20%;
+    }
+
+    #contenedorPrincipal-contenedorTarjetas{
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-top: 110px;
+    }
+
+}
+
+.contenedorTexto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:#e9e9e9ee ;
+    padding: 10px;
+}
+
+.tarjeta .contenedorTexto p{
+    font-weight: 700;
+    text-align: justify;
+}
+
+
+#contenedorContactenosTitulo{
+    margin-top: 20px;
+}
