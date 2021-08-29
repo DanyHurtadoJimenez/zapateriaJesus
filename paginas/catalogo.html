@@ -168,6 +168,55 @@
         </div>
         
     </footer>
+
+    <div id="miModal" class="modal">
+
+        <span id="cerrar">×</span>
+
+        <div id="contenedor">
+
+            <div id="contenedorImagen">
+                <img src="https://www.payless.cr/26589-thickbox_default/women_s_liv_slip_on.jpg" class="modal-contenido" id="imgProducto">
+            </div>
+
+            <div id="contenedorInformacion">
+                <h2>Codigo #38</h2>
+                <h2>Tenis Liv para mujer</h2>
+                <h2>$ 20500 <span id="impuestos"> *Impuestos no incluidos</span></h2>
+                <h3>Tallas: 35, 36, 37, 38, 39</h3>
+                <hr>
+                <form id="formularioCotizacion" action="">
+                    <div class="opcionFormulario">
+                        <label for="">Cantidad</label>
+                        <input type="number" name="cantidad" min="1" max="10">
+                    </div>
+                    <label id="indicacion">
+                        Escribe tu edad y de acuerdo a ella te daremos un descuento
+                    </label>
+                    <div class="opcionFormulario">
+                        <label for="nombre">Edad: </label>
+                        <input type="number" name="cantidad" min="1" max="100">
+                    </div>
+                    <input id="botonCotizar" type="button" value="Cotizar">
+
+                </form>
+            </div>
+
+            <div id="resultadoCotizacion">
+                <h3>Impuesto: 13%</h3>
+                <h3>Cantidad: </h3>
+                <h3>Descuento: </h3>
+                <h3>Total: </h3>
+            </div>
+
+        </div>    
+
+
+        
+        
+        <!-- <div id="descripcion"> AQUI VA LA DESCRIPCION DEL PRODUCTO</div> -->
+    </div>
+
     <script src="https://kit.fontawesome.com/05d56a2670.js" crossorigin="anonymous"></script>
     <script src="../archivosJS/jQuery.js"></script>
     <script src="../archivosJS/principal.js"></script>
