@@ -100,7 +100,7 @@
 }
 
 #imgProducto{
-    width: 80%;
+    width: 70%;
     border-radius: 5px;
 }
 
@@ -131,6 +131,7 @@
 #formularioCotizacion input{
     border: rgba(0, 0, 0, 0.253) 1px solid;
     border-radius: 5px;
+    font-weight: 600;
 }
 
 
@@ -173,7 +174,7 @@
 
 @media only screen and (min-width:500px){ /*ESTO CAMBIA EL TAMANIO DEL NAV PARA ADAPTARSE A LOS TELEFONOS*/ /********************************************/
     #imgProducto {
-        width: 40%;
+        width: 35%;
         border-radius: 5px;
         margin-bottom: 20px;
     }
@@ -191,4 +192,8 @@
     #contenedor{
         align-items: center;
     }
+}
+
+.tarjeta{
+    cursor: pointer;
 }
