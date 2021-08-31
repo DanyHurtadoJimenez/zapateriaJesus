@@ -29,7 +29,7 @@ $('#botonCotizar').click(function(){
     
     let total = (precio - descuento)
 
-    if (($('#cantidad').val() !== "" && $('#edad').val() !== "")) {  //se valida que los espacios tengan algo, sino tienen nada entonces no se realiza la cotizacion
+    if (($('#cantidad').val() !== "" && $('#edad').val() !== "") && ($('#cantidad').val() > 0 && $('#edad').val() > 0 )) {  //se valida que los espacios tengan algo y sean numeros positivos, sino tienen nada entonces no se realiza la cotizacion
         $('#cantidadCotizacion').html(`Cantidad: ${cantidad}`)
         $('#descuentoCotizacion').html(`Descuento: ₡${Math.trunc(descuento)}`)
         $('#total').html(`Total: ₡${Math.trunc(total)}`)
