@@ -1,6 +1,6 @@
 /*OBJETOS DE CADA UNO DE LOS PRODUCTOS*/
 
-var zapatos = [
+const zapatos = [
     {
         id: 1,
         linkImg: 'https://www.payless.cr/20786-thickbox_default/men_s_carlin_dress_shoes.jpg',

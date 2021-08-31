@@ -34,7 +34,7 @@
     text-align: justify;
     font-size: larger;
     font-weight: 600;
-    width: 90%;/*debe cambiar*/
+    width: 90%;
     padding: 15px;
 }
 
@@ -44,7 +44,7 @@
 }
 
  #videoPromo{
-    width: 95%;  /*debe cambiar*/
+    width: 95%;  
     border-radius: 5px;
     padding: 0px 7.5px 0px 7.5px;
 }

@@ -1,4 +1,4 @@
-/*TARJETAS O CARRUSEL*/
+/*TARJETAS*/
 .tarjeta{
     width: 100%;
     background-color:#e9e9e9ee ;
@@ -55,23 +55,23 @@
 .modal{
     display: none;
     background-color: #f6f5f5;
-    position: fixed; /* fija la posición */
-    z-index: 1; /* lo envia al frente */
-    padding-top: 12px; /* ubica la caja */   /*MODIFICAR*/
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 12px; 
     left: 0;
     top: 0;
-    width: 100%; /* amplia el tamaño */
+    width: 100%; 
     height: 100%; 
-    overflow: auto; /* habilita el scroll si es necesario */
+    overflow: auto; 
 }
 
-#contenedor{      /*MODIFICAAR*/
+#contenedor{     
     display: flex;
     padding: 25px;
     flex-direction: column;
 }
 
-#contenedorInformacion{  /*MODIFICAR*/
+#contenedorInformacion{ 
     background-color: white;
     display: flex;
     width: 100%;
@@ -111,12 +111,12 @@
     animation-duration: 0.6s;
 }
 
-@-webkit-keyframes zoom {  /****************************************************************************************************************/
+@-webkit-keyframes zoom {  
     from {transform:scale(0)} 
     to {transform:scale(1)}
 }
 
-@keyframes zoom {   /****************************************************************************************************************/
+@keyframes zoom {   
     from {transform:scale(0.1)} 
     to {transform:scale(1)}
 }
@@ -135,7 +135,7 @@
 }
 
 
-#cerrar {    /****************************************************************************************************************/
+#cerrar {    
     position: absolute;
     top: 0px;
     right: 20px;
@@ -145,7 +145,7 @@
     transition: 0.3s;
 }
 
-#cerrar:hover,   /****************************************************************************************************************/
+#cerrar:hover,   
 #cerrar:focus {
     color: rgba(43, 43, 43, 0.74);
     text-decoration: none;
@@ -172,7 +172,7 @@
     width: 100%;
 }
 
-@media only screen and (min-width:500px){ /*ESTO CAMBIA EL TAMANIO DEL NAV PARA ADAPTARSE A LOS TELEFONOS*/ /********************************************/
+@media only screen and (min-width:500px){ /*ESTO CAMBIA EL TAMANIO DEL NAV PARA ADAPTARSE A LOS TELEFONOS*/ 
     #imgProducto {
         width: 35%;
         border-radius: 5px;
