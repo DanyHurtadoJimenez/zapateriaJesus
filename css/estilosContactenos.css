@@ -11,11 +11,6 @@
     margin-bottom: 20px;
 }
 
-#contenedorContactenosCorreos{
-    padding: 10px;
-}
-
-
 iframe{
     margin: 20px;
     width: 85%;
@@ -137,3 +132,22 @@ iframe{
     display: flex;
     justify-content: center;
 }
+
+#tablaContactos{
+    width: 100%;
+}
+
+#tablaContactos th{
+    background-color: rgba(99, 105, 110, 0.274);
+}
+
+
+th, td {
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px inset rgba(0, 0, 0, 0.521);
+    border-radius: 4px;
+    font-weight: 600;
+ }
+ 

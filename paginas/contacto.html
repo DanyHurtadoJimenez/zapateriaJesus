@@ -74,14 +74,33 @@
        <div id="contenedorContactenosTitulo"><h2>Contáctenos</h2></div>
        <div id="contenedorContactenos">
            <div id="contenedorContactenosCorreos">
-                <h2>Correo Electrónico:</h2>
-                <p>servicioalcliente@zj.com</p>
-                <h2>Ventas al por mayor:</h2>
-                <p>ventaspormayor@zj.com</p>
-                <h2>Ventas al detalle:</h2>
-                <p>ventasdetalle@zj.com</p>
-                <h2>Teléfono:</h2>
-                <p>2445-99-99</p>
+
+                <table id="tablaContactos">
+                    <tr>
+                        <th>Colaborador</th>
+                        <th>Correo</th>
+                        <th>Teléfono</th>
+                    </tr>
+
+                    <tr>
+                        <td>Jesús Mora</td>
+                        <td>ventaspormayor@zj.com</td>
+                        <td>24459988</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sofía Castillo</td>
+                        <td>ventasdetalle@zj.com</td>
+                        <td>24451255</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cristina Sandoval</td>
+                        <td>servicioalcliente@zj.com</td>
+                        <td>24459955</td>
+                    </tr>
+                </table>
+
                 <h2>Nuestra Ubicación:</h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d825.7892055748192!2d-84.47012405789927!3d10.08781009058669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa044e377d3afdb%3A0x25fec024d645683a!2sProvincia%20de%20Alajuela%2C%20San%20Ram%C3%B3n!5e0!3m2!1ses!2scr!4v1629691637500!5m2!1ses!2scr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
            </div>
@@ -90,13 +109,13 @@
                 <h2>Envíe su pregunta, y pronto le responderemos</h2>
                 <form id="formularioPregunta" action="">
                     <label id="lblCompleto" for="nombre">Nombre Completo*</label>
-                    <input type="text" name="" id="nombreCompleto">     <!-- AQUI -->
+                    <input type="text" name="" id="nombreCompleto">     
                     <label id="lblEmail" for="email">Correo Electrónico*</label>
-                    <input type="text" name="" id="correoElectronico">   <!-- AQUI -->
+                    <input type="text" name="" id="correoElectronico">   
                     <label id="lblTeléfono" for="telefono">Número de Teléfono</label>
-                    <input type="number" name="" id="numeroTelefono">     <!-- AQUI -->
+                    <input type="number" name="" id="numeroTelefono">     
                     <label id="lblPregunta" for="pregunta">Escriba su pregunta*</label>
-                    <textarea name="espacioPregunta" id="espacioPregunta" cols="50" rows="5"></textarea>   <!-- AQUI -->
+                    <textarea name="espacioPregunta" id="espacioPregunta" cols="50" rows="5"></textarea>   
                     <input id="botonEnviar" type="reset" value="Enviar">
                 </form>
                 <label for="" id="advertencia"></label>
