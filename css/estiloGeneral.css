@@ -93,7 +93,7 @@
     font-weight: bold;
 }
 
-@media only screen and (min-width:500px){ /*ESTO CAMBIA EL TAMANIO DEL NAV PARA ADAPTARSE A LOS TELEFONOS*/ /********************************************/
+@media only screen and (min-width:500px){ /*ESTO CAMBIA EL TAMANIO DEL NAV PARA ADAPTARSE AL ESCRITORIO*/ 
     .opcionesMenu{
         padding: 12px;
         margin-left: 80px;
@@ -185,7 +185,7 @@ hr{
     font-weight:700;
 }
 
-@media only screen and (min-width:500px){
+@media only screen and (min-width:500px){ /*ESTO CAMBIA ALGUNOS ELEMENTOS DEL FOOTER PARA ADAPTARSE AL ESCRITORIO*/ 
 
     #piePagina-menu{
         padding: 20px;

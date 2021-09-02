@@ -18,7 +18,7 @@ $('.tarjeta').click(function(){//cuando se da click a cada uno de los divs que c
     sessionStorage.setItem('precio',productoFiltrado[0].precio)//se guarda el precio de cada articulo en el sessionStorage para luego utilizarlo de una manera mas facil
 })
 
-$('#botonCotizar').click(function(){
+$('#botonCotizar').click(function(){//EL BOTON COTIZAR REALIZARA EL CALCULO DE LO QUE EL CLIENTE DEBE DE PAGAR POR EL ARTICULO QUE DESEA CONOCER EL PRECIO
     let cantidad = parseInt($('#cantidad').val());
     let precio = (parseInt(sessionStorage.getItem('precio')) * cantidad);
 

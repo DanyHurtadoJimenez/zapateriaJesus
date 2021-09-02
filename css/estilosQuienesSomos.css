@@ -63,7 +63,7 @@ i{
     cursor: pointer;
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:500px){/*PERMITE CAMBIAR LA ESTRUCTURA DEL CONTENEDOR CUANDO LA PANTALLA CAMBIA A TELEFONO */
     #contenedorInfo{
         flex-direction: column;
     }

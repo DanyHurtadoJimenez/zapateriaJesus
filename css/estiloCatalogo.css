@@ -172,7 +172,7 @@
     width: 100%;
 }
 
-@media only screen and (min-width:500px){ /*ESTO CAMBIA EL TAMANIO DEL NAV PARA ADAPTARSE A LOS TELEFONOS*/ 
+@media only screen and (min-width:500px){ /*ESTO CAMBIA EL TAMANIO DE LOS ELEMENTOS SIGUIENTES PARA ADAPTARSE A ESCRITORIO*/ 
     #imgProducto {
         width: 35%;
         border-radius: 5px;

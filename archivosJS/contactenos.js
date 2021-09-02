@@ -6,16 +6,16 @@ $('#botonEnviar').click(function(){//ESTA FUNCION ES LA QUE OBTENDRA LOS VALORES
         sessionStorage.setItem('telefono',$('#numeroTelefono').val())
         sessionStorage.setItem('pregunta',$('#espacioPregunta').val())
     
-        $('#nombre').html(`Nombre: ${sessionStorage.getItem('nombreUsuario')}`)
+        $('#nombre').html(`Nombre: ${sessionStorage.getItem('nombreUsuario')}`) //SE GUARDA EN EL SESSION
         $('#correoE').html(`Correo Eléctronico: ${sessionStorage.getItem('email')}`)
         $('#telefono').html(`Teléfono: ${sessionStorage.getItem('telefono')}`)
         $('#pregunta').html(`Pregunta: <br> ${sessionStorage.getItem('pregunta')}`)
     
-        $('#contenedorModal').css('display','block')
+        $('#contenedorModal').css('display','block') //SE MUESTRA EL MODAL
     }else{
         $('#advertencia').html('*No puedes enviar nada vacío, debes completar los espacios correspondientes')
         $('#advertencia').show(1000,function(){
-            setTimeout(function(){
+            setTimeout(function(){ //SINO SE MUESTRA LA ADVERTENCIA POR 4 SEGUNDOS
                 $('#advertencia').hide(1000)
             },4000)
         })
@@ -29,12 +29,12 @@ $('#confirmacion').click(function(){ //EL BOTON DE CONFIRMACION DE EL "ENVIO DEL
     sessionStorage.removeItem('email')
     sessionStorage.removeItem('telefono')
     sessionStorage.removeItem('pregunta')
-    $('#contenedorModal').hide(1000)
+    $('#contenedorModal').hide(1000) //ESCONDE EL MODAL
 })
 
 $('#negacion').click(function(){ //LA FUNCION NEGACION PERMITIRA EDITAR LA INFORMACION QUE PAREZCA INCORRECTA EN EL FORMULARIO
 
-    $('#nombreCompleto').val(sessionStorage.getItem('nombreUsuario'))
+    $('#nombreCompleto').val(sessionStorage.getItem('nombreUsuario'))//SE OBTIENEN LOS DATOS QUE ESTAN EN EL SESSION STORAGE Y SE CARGAN EN EL FORMULARIO
     $('#correoElectronico').val(sessionStorage.getItem('email'))
     $('#numeroTelefono').val(sessionStorage.getItem('telefono'))
     $('#espacioPregunta').val(sessionStorage.getItem('pregunta'))
