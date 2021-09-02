@@ -1,3 +1,4 @@
+
 /* ARREGLO DE OBJETOS DE CADA UNO DE LOS PRODUCTOS*/
 
 const zapatos = [
@@ -580,7 +581,15 @@ $(document).ready(function(){ //si el session storage esta vacio entonces cargue
     } else {
         cargarCatalogo(sessionStorage.getItem('categoria'))
     }
+
+    if (bowser.name === 'Firefox' ) { //primero debe de ver que navegador esta utilizando el usuario para agregar una hoja de estilos y corregir algunas cosas
+        $('#estiloFirefox').attr('href','../css/tamanioFuenteFireFox.css')
+    } 
+    
 })
+
+
+
 
 
 

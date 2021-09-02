@@ -26,3 +26,4 @@ $('.enlace').click(function(){ //toma todas los elementos con clase enlace (etiq
     let categoria = $(this).attr('categoria') //obtiene el id el cual es el nombre de la categoria que desea cargar
     sessionStorage.setItem('categoria',categoria)
 })
+

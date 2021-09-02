@@ -40,3 +40,11 @@ $('#negacion').click(function(){ //LA FUNCION NEGACION PERMITIRA EDITAR LA INFOR
     $('#espacioPregunta').val(sessionStorage.getItem('pregunta'))
     $('#contenedorModal').hide(1000)
 })
+
+$(document).ready(function(){ //cuando carga el documento
+    
+    if (bowser.name === 'Firefox' ) { //primero debe de ver que navegador esta utilizando el usuario para agregar una hoja de estilos y corregir algunas cosas
+        $('#estiloFirefox').attr('href','../css/tamanioFuenteFireFox.css')
+    } 
+    
+})

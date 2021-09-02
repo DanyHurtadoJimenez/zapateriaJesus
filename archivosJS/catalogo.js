@@ -37,3 +37,11 @@ $('#botonCotizar').click(function(){//EL BOTON COTIZAR REALIZARA EL CALCULO DE L
     }
 })
 
+
+$(document).ready(function(){ //cuando carga el documento
+    
+    if (bowser.name === 'Firefox' ) { //primero debe de ver que navegador esta utilizando el usuario para agregar una hoja de estilos y corregir algunas cosas
+        $('#estiloFirefox').attr('href','../css/tamanioFuenteFireFox.css')
+    } 
+    
+})

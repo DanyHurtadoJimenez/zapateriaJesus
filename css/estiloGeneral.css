@@ -1,11 +1,12 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Poppins', sans-serif;
-    
+    font-family: 'Poppins', sans-serif,Arial;
+    /*font-size: 27px;*/
 }
 
-/*CSS ENCABEZADO*/
+
+/*CSS ENCABEZADO */ 
 
 #encabezado{
     background-color: #3bb4c1;

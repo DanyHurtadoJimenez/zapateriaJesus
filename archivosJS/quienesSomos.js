@@ -31,3 +31,18 @@ contenedorVideo.addEventListener('mouseover',function(){ //esta funcion permite 
         },4000)
     })
 })
+
+// if (bowser.name === 'Firefox' ) {
+//     console.log('hay que cambiar la letra')
+//     $('#estiloFirefox').attr('href','../css/tamanioFuenteFireFox.css')
+// } else if(bowser.name === 'Chrome'){
+//     console.log('No hace falta cambiar la letra')
+// }
+
+$(document).ready(function(){ //cuando cargue el documento
+    
+    if (bowser.name === 'Firefox' ) { //primero debe de ver que navegador esta utilizando el usuario para agregar una hoja de estilos y corregir algunas cosas
+        $('#estiloFirefox').attr('href','../css/tamanioFuenteFireFox.css')
+    } 
+    
+})
